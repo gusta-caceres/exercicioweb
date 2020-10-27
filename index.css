@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18%;
+    background: url(fundo.jpg);
+    background-size: cover;
+}
+.calendario{
+    position: relative;
+    width: 180px;
+    background: rgb(218, 188, 218);
+    text-align: center;
+    border-radius: 8px;
+}
+.calendario #mes{
+    position: relative;
+    padding: 5px 10px;
+    background: #800e7a;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.calendario #nomedia{
+    margin-top: 3px;
+    font-size: 20px;
+    color: black;	
+    text-transform: capitalize;
+}
+.calendario #numerodia{
+    margin-top: 0px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.calendario #ano{
+    margin-top: -5px;
+    font-size: 20px;
+    color: black;	
+    text-transform: capitalize;
+}
+.calendario #funcao{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
